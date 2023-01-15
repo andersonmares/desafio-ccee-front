@@ -87,7 +87,7 @@ export class AppComponent {
         }
         for(let p of r.precoMedio.valor) {
           let precos : PrecoMedioDTO = {
-            //valor:p._text, Removido o valor do Preco Medio
+            //valor:p._text, removendo o valor do preco medio
             valor:0,
           }
           precosMedio.push(precos);
